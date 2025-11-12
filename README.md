@@ -1,10 +1,10 @@
-# Electrum - Lightweight Bitcoin client
+# Electrum Bitgesell - Lightweight Bitgesell client
 
 ```
 Licence: MIT Licence
-Author: Thomas Voegtlin
+Author: Thomas Voegtlin, Naftali Murgor
 Language: Python (>= 3.8)
-Homepage: https://electrum.org/
+Homepage: https://electrumbgl.naftalimurgor.com/
 ```
 
 [![Build Status](https://api.cirrus-ci.com/github/spesmilo/electrum.svg?branch=master)](https://cirrus-ci.com/github/spesmilo/electrum)
@@ -87,7 +87,7 @@ and [for macOS](contrib/osx/README_macos.md))_
 
 Check out the code from GitHub:
 ```
-$ git clone https://github.com/spesmilo/electrum.git
+$ git clone https://github.com/naftalimurgor/electrum-bgl.git
 $ cd electrum
 $ git submodule update --init
 ```
