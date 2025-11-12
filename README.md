@@ -11,6 +11,7 @@ Homepage: https://electrumbgl.naftalimurgor.com/
 [![Test coverage statistics](https://coveralls.io/repos/github/spesmilo/electrum/badge.svg?branch=master)](https://coveralls.io/github/spesmilo/electrum?branch=master)
 [![Help translate Electrum online](https://d322cqt584bo4o.cloudfront.net/electrum/localized.svg)](https://crowdin.com/project/electrum)
 
+<img src="Icon.png" style="height: 60px;" />
 
 ## Getting started
 
