@@ -71,10 +71,12 @@ class AbstractNet:
 class BitcoinMainnet(AbstractNet):
 
     NET_NAME = "mainnet"
+    DEFAULT_SERVERS = {"198.96.88.103": {"t": "50001"}}
     TESTNET = False
     WIF_PREFIX = 0x80
     ADDRTYPE_P2PKH = 0
     ADDRTYPE_P2SH = 5
+    TX_HASHING_USES_WITNESS = False
     SEGWIT_HRP = "bgl"
     BOLT11_HRP = SEGWIT_HRP
     GENESIS = "00000018cdcfeeb4dfdebe9392b855cfea7d6ddb953ef13f974b58773606d53d"
