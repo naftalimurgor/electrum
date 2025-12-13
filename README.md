@@ -15,9 +15,6 @@ Homepage: https://electrumbgl.naftalimurgor.com/
 
 ## Getting started
 
-_(If you've come here looking to simply run Electrum,
-[you may download it here](https://electrum.org/#download).)_
-
 Electrum itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
 is a TL;DR:
@@ -108,6 +105,30 @@ Finally, to start Electrum:
 ```
 $ ./run_electrum
 ```
+
+### Roadmap
+
+Current port for Bitgesell is in progress follows:
+
+- [x] Import Wallets from 24-word Bip39 Seedphrase
+
+- [x] Import Wallet from WIF format Privatekey
+- [x] Sync transactions
+- [x] Display Transactions
+- [ ]  Send BGL - Pending
+- [ ]  Harware wallet support - Pending
+
+
+1. Addressess
+![alt text](electrum.png)
+
+
+2. History
+![alt text](history.png)
+
+3. Transaction Details
+   ![alt text](tx_details.png)
+
 
 ### Run tests
 
